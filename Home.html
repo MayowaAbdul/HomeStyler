@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomeStyler</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/Home.css">
     <link rel="icon" href="./assets/logo.png" type="image/gif" />
     <link
@@ -67,23 +68,23 @@
    </div>
 
 
-   <div class="section2">
+   <div class="section2" data-aos="fade-down">
     <h1>WHAT WE DO</h1>
    </div>
 
    <div class="section3">
-    <img src="./assets/Background.jpg" alt="">
-    <div class="text">
+    <img src="./assets/Background.jpg" alt="" data-aos="fade-right">
+    <div class="text" data-aos="fade-left">
         <h1>ABOUT US</h1>
         <p>HomeStyler is a website that allows users to view home interior design elements and kits. It displays design images, home accessories, and product to improve home interiors. We also display the prices of our designs and accessories. The profile of our designers are also displayed along side their ratings and their details.</p>
     </div>
    </div>
 
-   <div class="section4">
+   <div class="section4" data-aos="fade-down">
     <h1>OUR DESIGNS</h1>
    </div>
 
-   <div class="image">
+   <div class="image" data-aos="fade-left">
     <div class="gallery-grid">
         <!-- 10 images with descriptions -->
         <div class="gallery-item">
@@ -253,5 +254,9 @@
 
 
    <script src="./js/script.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
 </body>
 </html>

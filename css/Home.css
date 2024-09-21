@@ -155,7 +155,7 @@ html {
     display: none;
   }
   
-  @media (max-width: 768px) {
+  @media (min-width: 360px) and (max-width: 768px) {
     #menu-icon {
         display: block;
     }
@@ -211,7 +211,7 @@ html {
   }
 
   .section1{
-    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(/assets/Background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(/assets/LivingRoom1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 80px;
